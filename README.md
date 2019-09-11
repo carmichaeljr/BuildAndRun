@@ -4,7 +4,7 @@ A program that builds and runs all of your other programs.
 If you know multiple programming languages, it can kind of be a pain to remember all of there separate commands, muchless not mix them up. With this program, you write the command to compile and execute a particular language once, and then you don't have to worry about it again.
 
 ### To Download
-Follow this link to download the program. Note that this program has only been tested on windows and it will most likely not work on other platforms.
+Follow this [link](https://github.com/carmichaeljr/BuildAndRun/releases/tag/v1.0) to download the program. Note that this program has only been tested on windows and it will most likely not work on other platforms.
 
 ### To Use
 ##### Settings And Setup
