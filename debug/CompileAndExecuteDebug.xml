@@ -1,0 +1,7 @@
+<CompileCmd cmd="C:\Windows\notepad.exe">
+	<Arg>"./debug/ProgramSettingsDebug.xml"</Arg>
+</CompileCmd>
+<ExecuteCmd cmd="C:\Windows\notepad.exe">
+	<Arg>"./debug/ProgramSettingsDebug.xml"</Arg>
+</ExecuteCmd>
+<LineCount></LineCount>

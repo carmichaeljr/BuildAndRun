@@ -1,0 +1,19 @@
+<ProgramSettings>
+	<FirstArg accepted="c,e,ce,l,r,s"></FirstArg>
+</ProgramSettings>
+<LanguageSettings>
+	<LangDef>
+		<Ext>.py</Ext>
+		<CompilerCmd></CompilerCmd>
+		<ExecuteCmd>"python.exe -u"</ExecuteCmd>
+		<OutputPath></OutputPath>
+		<BuildFile>false</BuildFile>
+	</LangDef>
+	<LangDef>
+		<Ext>.java</Ext>
+		<CompilerCmd></CompilerCmd>
+		<ExecuteCmd></ExecuteCmd>
+		<OutputPath></OutputPath>
+		<BuildFile>true</BuildFile>
+	</LangDef>
+</LanguageSettings>

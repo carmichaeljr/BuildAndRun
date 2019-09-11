@@ -1,0 +1,5 @@
+<CompileCmd></CompileCmd>
+<ExecuteCmd cmd="C:\Program Files\Python36\python.exe">
+	<Arg>"TestBuildFile.py"</Arg>
+</ExecuteCmd>
+<LineCount></LineCount>

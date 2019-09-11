@@ -1,0 +1,6 @@
+<CompileCmd></CompileCmd>
+<ExecuteCmd cmd="C:\Program Files\Python36\python.exe">
+	<Arg>-Wall -Wpointer-arith -g -o -TestArgWithSpaces</Arg>
+	<MainFile name=true extension=true></MainFile>
+</ExecuteCmd>
+<LineCount></LineCount>

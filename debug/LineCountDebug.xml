@@ -1,0 +1,7 @@
+<CompileCmd cmd="C:\Windows\notepad.exe">
+</CompileCmd>
+<ExecuteCmd cmd="C:\Windows\notepad.exe">
+</ExecuteCmd>
+<LineCount>
+	<Files>./debug/LineCountTest.txt</Files>
+</LineCount>
