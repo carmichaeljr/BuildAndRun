@@ -1,0 +1,55 @@
+<ProgramSettings>
+	<FirstArg accepted=c,e,l,ce,cl,el,cel,s,d></FirstArg>
+</ProgramSettings>
+<LanguageSettings>
+	<LangDef ext=py outputPath="">
+		<CompileCmd cmd=""></CompileCmd>
+		<ExecuteCmd cmd="C:\Program Files\Python36\python.exe">
+			<Arg addSpace=true>-u</Arg>
+			<MainFile name=true extension=true></MainFile>
+		</ExecuteCmd>
+		<LineCount></LineCount>
+	</LangDef>
+	<LangDef ext=java outputPath="">
+		<CompileCmd cmd="C:\Program Files\Java\jdk1.8.0_131\bin\javac.exe">
+			<Arg addSpace=true>-cp ".;C:\Program Files\processing-3.3.5\core\library\core.jar</Arg>
+			<MainFile name=true extension=true></MainFile>
+		</CompileCmd>
+		<ExecuteCmd cmd="C:\Program Files\Java\jdk1.8.0_131\bin\java.exe">
+			<Arg addSpace=true>-cp ".;C:\Program Files\processing-3.3.5\core\library\core.jar</Arg>
+			<MainFile name=true extension=false></MainFile>
+		</ExecuteCmd>
+		<LineCount></LineCount>
+	</LangDef>
+	<LangDef ext=pde outputPath="C:\Users\JackCarmichael\Documents\Programming\Processing\TempProcessingSketches\TempSketch">
+		<CompileCmd cmd="C:\Program Files\Processing\processing-3.3.5\processing-java.exe">
+			<Arg addSpace=false>--sketch=</Arg>
+			<CurrentDirectory></CurrentDirectory>
+			<Arg addSpace=false>--output=</Arg>
+			<OutputPath></OutputPath>
+			<Arg addSpace=true>--force</Arg>
+			<Arg addSpace=true>--build</Arg>
+		</CompileCmd>
+		<ExecuteCmd cmd="C:\Program Files\Processing\processing-3.3.5\processing-java.exe">
+			<Arg addSpace=false>--sketch=</Arg>
+			<CurrentDirectory></CurrentDirectory>
+			<Arg addSpace=false>--output=</Arg>
+			<OutputPath></OutputPath>
+			<Arg addSpace=true>--force</Arg>
+			<Arg addSpace=true>--run</Arg>
+		</ExecuteCmd>
+		<LineCount></LineCount>
+	</LangDef>
+	<LangDef ext=c outputPath="">
+		<CompileCmd cmd="C:\MinGW\bin\gcc.exe">
+			<Arg addSpace=true>-Wall -Wpointer-arith -g -o</Arg>
+			<MainFile name=true extension=false></MainFile>
+			<Arg addSpace=true>*.h</Arg>
+			<Arg addSpace=true>*.c</Arg>
+		</CompileCmd>
+		<ExecuteCmd cmd="">
+			<MainFile name=true extension=false></MainFile>
+		</ExecuteCmd>
+		<LineCount></LineCount>
+	</LangDef>
+</LanguageSettings>
