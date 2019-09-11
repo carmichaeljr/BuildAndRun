@@ -8,7 +8,9 @@
 			<Arg addSpace=true>-u</Arg>
 			<MainFile name=true extension=true></MainFile>
 		</ExecuteCmd>
-		<LineCount></LineCount>
+		<LineCount>
+			<Files>*.py</Files>
+		</LineCount>
 	</LangDef>
 	<LangDef ext=java outputPath="">
 		<CompileCmd cmd="C:\Program Files\Java\jdk1.8.0_131\bin\javac.exe">
@@ -19,7 +21,9 @@
 			<Arg addSpace=true>-cp ".;C:\Program Files\processing-3.3.5\core\library\core.jar</Arg>
 			<MainFile name=true extension=false></MainFile>
 		</ExecuteCmd>
-		<LineCount></LineCount>
+		<LineCount>
+			<Files>*.java</Files>
+		</LineCount>
 	</LangDef>
 	<LangDef ext=pde outputPath="C:\Users\JackCarmichael\Documents\Programming\Processing\TempProcessingSketches\TempSketch">
 		<CompileCmd cmd="C:\Program Files\Processing\processing-3.3.5\processing-java.exe">
@@ -38,7 +42,9 @@
 			<Arg addSpace=true>--force</Arg>
 			<Arg addSpace=true>--run</Arg>
 		</ExecuteCmd>
-		<LineCount></LineCount>
+		<LineCount>
+			<Files>*.pde</Files>
+		</LineCount>
 	</LangDef>
 	<LangDef ext=c outputPath="">
 		<CompileCmd cmd="C:\MinGW\bin\gcc.exe">
@@ -50,6 +56,9 @@
 		<ExecuteCmd cmd="">
 			<MainFile name=true extension=false></MainFile>
 		</ExecuteCmd>
-		<LineCount></LineCount>
+		<LineCount>
+			<Files>*.c</Files>
+			<Files>*.h</Files>
+		</LineCount>
 	</LangDef>
 </LanguageSettings>
