@@ -12,7 +12,7 @@ The very first thing that you have to do to use this program is update the setti
 * On Linux: ```./BuildAndRun s```
 * On Windows: ```BuildAndRun.exe s```
 
-This will open the settings file for you to edit. From here you can edit the *LanguageSettings* part of the settings file. For each language, there are three things that you need to worry about.
+This will open the settings file for you to edit. From here you can edit the *LanguageSettings* part of the settings file. The language settings part of the file defines the templates for the build file that will be generated in the project folder. For each language, there are three things that you need to worry about.
 * This first thing is the language definition. With this you need to define the extension that is identified with the language, and set the output path if that languages compiler needs one.
   * ```<LangDef ext=c outputPath=""></LangDef>```
 * After that you need to set the compiler command. This will need the path to the compiler, and all of its arguments. Each argument has one flag, *addSpace*. If this is true then there will be a space added at the end of that argument. If false no space is added. This is usefull for combining multiple argument tags into one. An example of a complete compile command is shown below. You may have noticed the ```<MainFile>``` tag. This is a special that that inserts the main file that you give the program. There are three special tags. They are listed below with how to use them.
@@ -31,7 +31,7 @@ This will open the settings file for you to edit. From here you can edit the *La
   
 ##### Usage
 * Navigate to the folder that contains the project you want to compile/execute.
-* Run the program with arguments as shown below: 
+* Run the program with arguments as shown below. Note that this can be made easier by making an alias in the terminal for the BuildAndRun program or, if you are on windows, by adding the BuildAndRun folder to the environment variables.
   ```
   On Linux: path/to/buildAndRunFolder/BuildAndRun [option] [file]
   On Windows: C:\path\to\buildAndRunFolder\BuildAndRun.exe [option] [file]
